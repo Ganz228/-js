@@ -1,8 +1,37 @@
-'use script';
+let x = Number(prompt("Введите x ="));
+let  = +prompt("Введите  =");
+let y = +prompt("Введите y =");
+let z = +prompt("Введите z =");
+let h;
 
-let x = Number(prompt("Введите x = "));
-let y = +prompt("Введите y = ");
+if(t * z >0 && x > 0){
+    let minEL = y;
 
-let a = (14 * Math.sin(x) + Math.pow(y, 2))/(0.92 * Math.pow(Math.cos(x), 3))
+    if(minEL > z){
+        minEL = z;
+    }
 
-console.log(a);
+    maxEL = c;
+
+     if (maxEL < Math.sqrt(x)){
+        maxEL = Math.sqrt(x)
+    }
+
+    if (maxEL < minEL){
+        maxEL = minEL
+    }
+
+    h = maxEL
+} else if(y *z < 0 && x > 0){
+    let minEL = Math.pow(y, 2);
+
+    if (minEL > x){
+        minEL = x;
+    }
+
+    h = minEL;
+} else{
+    h = 1
+}
+
+onsole.log(h);
