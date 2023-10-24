@@ -1,37 +1,8 @@
+'use strict'
+
 let x = Number(prompt("Введите x ="));
-let c = +prompt("Введите  =");
-let y = +prompt("Введите y =");
-let z = +prompt("Введите z =");
-let h;
+let y = +prompt("Введите н =");
 
-if(t * z >0 && x > 0){
-    let minEL = y;
+let a = (14 * Math.sin(x)+ Math.pow(y, 2))/(0.92 * Math.pow(Math.cos(x), 3))
 
-    if(minEL > z){
-        minEL = z;
-    }
-
-    maxEL = c;
-
-     if (maxEL < Math.sqrt(x)){
-        maxEL = Math.sqrt(x)
-    }
-
-    if (maxEL < minEL){
-        maxEL = minEL
-    }
-
-    h = maxEL
-} else if(y *z < 0 && x > 0){
-    let minEL = Math.pow(y, 2);
-
-    if (minEL > x){
-        minEL = x;
-    }
-
-    h = minEL;
-} else{
-    h = 1
-}
-
-onsole.log(h);
+console.log(a);
