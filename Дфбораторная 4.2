@@ -1,0 +1,11 @@
+let a = Number(promt("Введите a = "));
+let b = +promt("Введите b =");
+let c = +promt("Введите c =");
+let La = bis(a, b, c);
+
+console.log(La);
+
+function bis(A, B, C){
+    let la = (Math.sqrt(B * C*Math.pow(B+C,2) - Math.pow(A,2)))/(B +C);
+    return la;
+}
