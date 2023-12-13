@@ -1,21 +1,23 @@
-Let = sideA = Number(prompt("Введите a = "));
-Let = sideB = +prompt("Введите b = ");
-Let = sideC = +prompt("Введите c = ");
+let R = Number(prompt("Введите a = "));
+let ug = +prompt("Введите b = ");
 
 
-function sidesOfTriangle(alpha, beta, gamma, radius) {
-    let sideA = 2 * radius * Math.sin(alpha);
-    let sideB = 2 * radius * Math.sin(beta);
-    let sideC = 2 * radius * Math.sin(gamma);
-    
+function sidesOfTriangle(R, UGOL) {
+    let s = 2 * R * Math.sin(ug);
+    s = +prompt("Введите угол = ");
+    console.log(sides);
+
     return [sideA, sideB, sideC];
-    }
-    
-    
-    let alpha = 30; 
-    let beta = 60; 
-    let gamma = 90; 
-    let radius = 5;
-    
-    let sides = sidesOfTriangle(alpha * (Math.PI / 180), beta * (Math.PI / 180), gamma * (Math.PI / 180), radius);
-    console.log(sides); 
+
+
+   
+    R = Number(prompt("Введите b = "));
+    ug = +prompt("Введите угол = ");
+    console.log(sides);
+
+
+    R = Number(prompt("Введите c = "));
+    ug = +prompt("Введите угол = ");
+    console.log(sides);
+
+}
